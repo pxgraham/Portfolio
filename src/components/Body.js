@@ -2,12 +2,9 @@ import React from 'react';
 import './../App.css';
 
 
-let myRef = React.createRef()
-console.log(myRef);
-
 function Body() {
     return (
-        <div className="body-container">
+        <div id="body-container" className="body-container">
             <div className="body-header">
                 Full-Stack Developer
             </div>

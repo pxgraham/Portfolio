@@ -157,7 +157,18 @@ html { scroll-behavior: smooth; }
   position: relative; 
   text-align: center;
   width: 100%;
-  margin-bottom: 200px;
+  margin-bottom: 20px;
+  /* top: 250px; */
+}
+
+#contact-container {
+  display: none;
+  justify-content: center;
+  color: rgba(245, 245, 245, 0.829);
+  position: relative; 
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
   /* top: 250px; */
 }
 
@@ -179,40 +190,57 @@ html { scroll-behavior: smooth; }
 }
 
 .project-container {
+  border-radius: 15px 20px 15px 20px;
+  background: rgba(47, 0, 255, 0.274);
   position: relative;
   /* top: 650px; */
   width: 88%;
   margin: auto;  
+  margin-bottom: 300px;
   /* margin-top: 650px; */
   /* height: 100%; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-size: 30px;
+}
+
+.project-header {
+  
+  background: rgba(255, 0, 0, 0.582);
+  border-radius: 15px 20px 15px 20px;
+
+  /* position: relative;   */
+  /* display: flex; */
+  /* height: auto; */
+  height: auto;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  
 }
 
 .project {
   
-  background: rgba(47, 0, 255, 0.274);
-  position: relative;  
-  height: 250px;
-  width: 300px;
+  background: rgba(255, 0, 0, 0.267);
+  border-radius: 15px 20px 15px 20px;
+  height: 135px;
+  width: 150px;
+  display:table;
   margin: 10px;
+  font-size: 20px;
+  padding: 5px;
+  /* vertical-align: center; */
   text-align: center;
-  border-radius: 25px 10px 25px 10px;
   
+}
+.project-a {
+  text-decoration: none;
+  display: table-cell;
+  padding-top: 30px;
+  color: rgba(245, 245, 245, 0.856);
 }
 
-.project-text {
-  width: 75%;
-  margin: auto;
-  font-size: 35px;
-  color: rgba(245, 245, 245, 0.829);
-  margin-top: 100px;
-  border: 5px solid rgba(0, 0, 0, 0.596);
-  border-radius: 20px 20px 20px 20px;
-  background: rgba(0, 0, 0, 0.185);
-  
-}
 
 /* .project:hover {
   
@@ -223,7 +251,8 @@ html { scroll-behavior: smooth; }
 } */
 
 .footer {
-  position: relative;
+  position: absolute;
+  bottom: 0px;
   margin-top: 200px;
   height: 100px;
   width: 100%;
@@ -388,4 +417,12 @@ a {
   color: whitesmoke;
   border: 1px solid black;
   padding: 5px;
+}
+
+
+
+.btn {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }

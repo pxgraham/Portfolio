@@ -13,6 +13,31 @@ function toggleOff() {
   document.getElementById('mobile-nav-dropdown').style.display = 'none';
 }
 
+function setActive(type) {
+  switch(type.target.id) {
+    case 'contact': 
+      // window.location.href = '/contact';
+      document.getElementById('portfolio').classList.remove('nav-active');
+      document.getElementById('contact').classList.add('nav-active');
+      document.getElementById('contact-container').style.display = 'block';
+      document.getElementById('body-container').style.display = 'none';
+      document.getElementById('project-container').style.display = 'none';
+      break;
+    case 'portfolio': 
+    document.getElementById('body-container').style.display = 'block';
+    document.getElementById('project-container').style.display = 'flex';
+    document.getElementById('contact-container').style.display = 'none';
+    document.getElementById('projects').scrollIntoView();
+    document.getElementById('contact').classList.remove('nav-active');
+    document.getElementById('portfolio').classList.add('nav-active');
+    // window.location.href = '/portfolio';
+      break;
+    default:
+      //do nothing
+  }
+  
+}
+
 function Navbar() {
   return (
       <div className="navbar">
@@ -39,18 +64,18 @@ function Navbar() {
 
           <div className="desktop-nav">  
 
-            <div id="contact" className="nav-item-right">          
+            <div onClick={setActive} id="contact" className="nav-item-right">          
               <div className="nav-item-right-padder"></div>
                 Contact
-                <div className="contact-dropdown">
-                  <p className="dropdown-item"><i class="fas fa-comments"></i></p>
-                  <p className="dropdown-item"><i class="far fa-envelope"></i></p>
-                  <p className="dropdown-item"><i class="fas fa-phone"></i></p>
-                  <p className="dropdown-item"><i class="fab fa-linkedin"></i></p> 
-                  <p className="dropdown-item"><i class="fab fa-github-square"></i></p>                             
-              </div>
+              {/* <div className="contact-dropdown">
+                <p className="dropdown-item"><i class="fas fa-comments"></i></p>
+                <p className="dropdown-item"><i class="far fa-envelope"></i></p>
+                <p className="dropdown-item"><i class="fas fa-phone"></i></p>
+                <p className="dropdown-item"><i class="fab fa-linkedin"></i></p> 
+                <p className="dropdown-item"><i class="fab fa-github-square"></i></p>                             
+              </div> */}
             </div>
-
+            {/*
             <div id="about" className="nav-item-right">
               <div className="nav-item-right-padder"></div>
               About
@@ -59,16 +84,16 @@ function Navbar() {
                 <p className="dropdown-item">My Drive</p>
                 <p className="dropdown-item">My Journey</p>              
               </div>
-            </div>
+            </div> */}
 
-            <div id="portfolio" className="nav-item-right nav-active">
+            <div id="portfolio" onClick={setActive} className="nav-item-right nav-active">
               <div className="nav-item-right-padder"></div>
               Portfolio
-              <div className="portfolio-dropdown">
+              {/* <div className="portfolio-dropdown">
                 <p className="dropdown-item">Games</p>
                 <p className="dropdown-item">Utilities</p>
-                {/* <p>hi</p> */}
-              </div>
+                <p>hi</p>
+              </div> */}
             </div>
             
           </div>
