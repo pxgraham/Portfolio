@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
         <Switch>
           <Route exact path="/" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
