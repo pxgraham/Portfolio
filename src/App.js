@@ -8,22 +8,13 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    // <Router>
-      <div className="background">
-        <div className="background-img"></div>
-        <Navbar />
-        <div className="container">
-          <Portfolio />
-          <Contact />
-        {/* <Switch> */}
-          {/* <Route exact path="/" component={Portfolio} /> */}
-          {/* <Route exact path="/contact" component={Contact} /> */}
-          {/* <Route component={Portfolio} /> */}
-        {/* </Switch> */}
-        {/* <Footer /> */}
-        </div>
-      </div>
-    // </Router>
+    <Router>
+        <Switch>
+          <Route exact path="/" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
+          <Route component={Portfolio} />
+        </Switch>
+     </Router>
   );
 }
 
