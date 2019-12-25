@@ -1,3 +1,61 @@
-body {
+html {
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  overflow: auto;
+  color: white;
+}
+
+body {
+  margin: 0px;
+}
+
+.btn {
+  background: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.text-light {
+  color: white;
+}
+
+.text-primary {
+  color: cyan;
+}
+
+.btn-primary {
+  border: 1px solid cyan;
+  background: rgba(0, 255, 255, 0.185);
+}
+
+.btn-light {
+  border: 1px solid cyan;
+  background: rgba(0, 204, 255, 0.178);
+}
+
+@media only screen and (max-width: 600px) {
+  .body-pane-info {
+    width: 90%;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+    text-align: left;
+  }
+
+  .footer-pane-info > h1 {
+    font-size: 20px;
+    font-weight: lighter; 
+    color: rgba(0, 0, 0, 0.568); 
+    margin-bottom: 0px;
+  }
+  .flex > div {
+    font-size: 12px;
+  }
+  .flex > p {
+    font-size: 12px;
+  }
+
 }

@@ -1,20 +1,19 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, HashRouter } from "react-router-dom";
 import './App.css';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+import Home from './pages/Home';
+import NoMatch from './pages/NoMatch';
 
 function App() {
   return (
-    <HashRouter>
-        <Switch>
-          <Route exact path="/" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-          <Route component={Portfolio} />
-        </Switch>
-     </HashRouter>
+      <HashRouter>
+        <div className="background"></div>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            {/* <Route exact path="/contact" component={Contact} /> */}
+            <Route component={NoMatch} />
+          </Switch>
+      </HashRouter>
   );
 }
 

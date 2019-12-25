@@ -1,0 +1,60 @@
+.body-pane {
+    left: 0px;
+    width: 100%;
+    height: 500px;
+    background: rgba(25, 0, 255, 0.096);
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+.body-pane-info {
+    margin-top: 90px;
+    padding: 10px;
+    position: absolute;    
+    width: 50%;
+    text-align: left;
+}
+
+.body-pane-btn {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.footer-pane {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: white;
+    color: black;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+    text-align: left;
+}
+
+.footer-pane-info > h1 {
+    font-weight: lighter; 
+    color: rgba(0, 0, 0, 0.568); 
+    margin-bottom: 0px;
+}
+
+.footer-pane-info > .flex {
+    display: flex;
+    justify-content: space-between; 
+    text-align: left;
+}
+
+.hasSubText {
+    margin-bottom: 0px;
+}
+
+.subtext {
+    font-size: 12px;
+    margin-top: 0px;
+}
