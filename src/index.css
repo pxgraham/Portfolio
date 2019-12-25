@@ -24,6 +24,10 @@ body {
   color: cyan;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .btn-primary {
   border: 1px solid cyan;
   background: rgba(0, 255, 255, 0.185);
@@ -41,7 +45,7 @@ body {
   .footer-container {
     display: flex;
     justify-content: space-between;
-    width: 66%;
+    width: 100%;
     text-align: left;
   }
 

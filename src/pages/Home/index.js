@@ -39,9 +39,9 @@ class Home extends Component {
                   </div>
                 </div>
               </div>
-              <div className="footer-pane-info">
+              <div className="footer-pane-info text-center">
                 <h1>Practice</h1>
-                <div className="flex">
+                <div className="flex text-center">
                   <div>
                     <p className="hasSubText">University of Arizona Coding Bootcamp 2018-2019</p>
                     <p className="subtext">Certification in Full Stack web development</p>

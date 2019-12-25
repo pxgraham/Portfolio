@@ -47,7 +47,7 @@
 .footer-pane-info > .flex {
     display: flex;
     justify-content: space-between; 
-    text-align: left;
+    /* text-align: left; */
 }
 
 .hasSubText {
@@ -58,3 +58,31 @@
     font-size: 12px;
     margin-top: 0px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .body-pane-info {
+      width: 90%;
+    }
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 0px;
+      width: 100%;
+      text-align: left;
+    }
+  
+    .footer-pane-info > h1 {
+      font-size: 20px;
+      font-weight: lighter; 
+      color: rgba(0, 0, 0, 0.568); 
+      margin-bottom: 0px;
+    }
+    .flex > div {
+      font-size: 12px;
+    }
+    .flex > p {
+      font-size: 12px;
+    }
+  
+  }
