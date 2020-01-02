@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './index.css';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
+import Resume from '../../files/resume.pdf';
 
 
 class Home extends Component {
@@ -13,37 +14,46 @@ class Home extends Component {
           <div className="container text-light">          
             <div className="row">
 
-              <div className="col-5">
+              <div className="col-4">
                 <h2>Full Stack Developer</h2>
                 <p>Building high quality responsive websites and providing an exceptional user experience.</p>
-                <button className="btn btn-dark text-light">Download Resume</button>
+                <p>Need a copy of my resume? Download one below.</p>
+                {/* <form method="get" action={Resume}> */}
+                  <button type="submit" className="btn btn-dark text-light" onClick={() => {window.open(Resume)}}>
+                    Resume&nbsp;&nbsp;<i className="fas fa-download"></i>
+                  </button>     
+                {/* </form> */}
+                
               </div>  
 
-              <div className="col-2">
+              <div className="col-4">
                 <div className="gif-container">
                   <div className="gif"></div>
                 </div>
               </div>
 
-              <div class="col-5 text-right">
+              <div className="col-4 text-right">
                 <p>Producing the highest quality</p>
                 <div className="text-primary">
-                  <h2><a href="/">Games</a>, Tools, <span class="text-light">and</span> Projects</h2>
+                  <h2><a href="/">Games</a>, Tools, <span className="text-light">and</span> Projects</h2>
                 </div>
                 <br />
-                <button className="btn btn-primary">View All</button>
+                <a href="#/Projects" className="btn btn-primary">View All</a>
               </div>
 
             </div>
             <br /><br /><br /><br />
-            <div className="row">
+            <div className="row bg-fade">
               <div className="col">
                 <h1>Hello 👋</h1>
                 <h2> My name is Peyton.</h2>
                 <p>
-                  I am a Developer with a few things in mind on how developing should handled. 
-                  Not just developing websites and applications, but developing ourselves as well... 
-                  <a href="/#/blog">read more</a>
+                  I am a Developer exploring the world of technology in an attempt to create new, exciting, and impactful systems.  
+                  I started all of this from scratch. Originally I was coding websites in my free time at work because I thought it was fun.
+                  Eventually I started learning different uses of web development. I learned iMacro coding which I integrated with HTML pages 
+                  to nearly entirely automate my current job(at the time). I found that the impact on myself and my work performance was worth it 
+                  to continue the climb of this mountain of education.
+                  {/* <a href="/#/blog">read more</a> */}
                 </p>
               </div>
             </div>
@@ -87,19 +97,14 @@ class Home extends Component {
 
               <div className="col text-center">
                 <h1>Contact</h1>
-                <p>pxgraham@gmail.com</p>
-                <p>928.358.6658</p>
+                <a href="mailto:pxgraham@gmail.com">pxgraham@gmail.com</a>
+                <br />
+                <a href="tel:9283586658">928.358.6658</a>
               </div>
 
             </div>
           </div>    
-          <nav className="navbar navbar-light bg-light text-center">
-            <span>Sponsored in part by</span>
-            <a className="navbar-brand" href="#">Sleysin Games</a>
-            <a className="navbar-brand" href="#">The Hidden Blue Shop</a>
-            <a className="navbar-brand" href="#">But Why Pod</a>
-            <a className="navbar-brand" href="#">💻</a>
-          </nav>
+          <Footer />
         </div>
     )
   }
