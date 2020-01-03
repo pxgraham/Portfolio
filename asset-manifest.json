@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "peighten.com/static/css/main.e7cc37dc.chunk.css",
-    "main.js": "peighten.com/static/js/main.025e7d24.chunk.js",
-    "main.js.map": "peighten.com/static/js/main.025e7d24.chunk.js.map",
-    "runtime-main.js": "peighten.com/static/js/runtime-main.889a13d2.js",
-    "runtime-main.js.map": "peighten.com/static/js/runtime-main.889a13d2.js.map",
-    "static/js/2.26850be9.chunk.js": "peighten.com/static/js/2.26850be9.chunk.js",
-    "static/js/2.26850be9.chunk.js.map": "peighten.com/static/js/2.26850be9.chunk.js.map",
-    "index.html": "peighten.com/index.html",
-    "precache-manifest.e1afaa6d30c7c43dadcd08ada0186dda.js": "peighten.com/precache-manifest.e1afaa6d30c7c43dadcd08ada0186dda.js",
-    "service-worker.js": "peighten.com/service-worker.js",
-    "static/css/main.e7cc37dc.chunk.css.map": "peighten.com/static/css/main.e7cc37dc.chunk.css.map",
-    "static/media/App.css": "peighten.com/static/media/body_background.5239014e.png",
-    "static/media/gif.gif": "peighten.com/static/media/gif.0bb8fe5f.gif",
-    "static/media/index.css": "peighten.com/static/media/jake.8224f254.gif",
-    "static/media/resume.pdf": "peighten.com/static/media/resume.bccf3496.pdf"
+    "main.css": "/static/css/main.dd038282.chunk.css",
+    "main.js": "/static/js/main.025e7d24.chunk.js",
+    "main.js.map": "/static/js/main.025e7d24.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d69c28a6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d69c28a6.js.map",
+    "static/js/2.26850be9.chunk.js": "/static/js/2.26850be9.chunk.js",
+    "static/js/2.26850be9.chunk.js.map": "/static/js/2.26850be9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1c5746886654ee605a133fb3d5deac84.js": "/precache-manifest.1c5746886654ee605a133fb3d5deac84.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.dd038282.chunk.css.map": "/static/css/main.dd038282.chunk.css.map",
+    "static/media/App.css": "/static/media/body_background.5239014e.png",
+    "static/media/gif.gif": "/static/media/gif.0bb8fe5f.gif",
+    "static/media/index.css": "/static/media/jake.8224f254.gif",
+    "static/media/resume.pdf": "/static/media/resume.bccf3496.pdf"
   }
 }
