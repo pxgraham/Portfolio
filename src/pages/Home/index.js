@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import './index.css';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import Resume from '../../files/resume.pdf';
 
 
 class Home extends Component {
@@ -16,14 +15,7 @@ class Home extends Component {
 
               <div className="col-4">
                 <h2>Full Stack Developer</h2>
-                <p>Building high quality responsive websites and providing an exceptional user experience.</p>
-                <p>Need a copy of my resume? Download one below.</p>
-                {/* <form method="get" action={Resume}> */}
-                  <button type="submit" className="btn btn-dark text-light" onClick={() => {window.open(Resume)}}>
-                    Resume&nbsp;&nbsp;<i className="fas fa-download"></i>
-                  </button>     
-                {/* </form> */}
-                
+                <p>Building high quality responsive websites and providing an exceptional user experience.</p>                
               </div>  
 
               <div className="col-4">
