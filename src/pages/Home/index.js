@@ -90,8 +90,6 @@ class Home extends Component {
               <div className="col text-center">
                 <h1>Contact</h1>
                 <a href="mailto:pxgraham@gmail.com">pxgraham@gmail.com</a>
-                <br />
-                <a href="tel:9283586658">928.358.6658</a>
               </div>
 
             </div>
