@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://pxgraham.github.io/Portfolio",
+  "homepage": "https://pxgraham.github.io/Portfolio",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
