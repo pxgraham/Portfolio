@@ -20,14 +20,14 @@ class Home extends Component {
 
               <div className="col-4">
                 <div className="gif-container">
-                  <div className="gif"></div>
+                  
                 </div>
               </div>
 
               <div className="col-4 text-right">
                 <p>Producing the highest quality</p>
-                <div className="text-primary">
-                  <h2><a href="/">Games</a>, Tools, <span className="text-light">and</span> Projects</h2>
+                <div>
+                  <h2>Games, Tools, <span className="text-light">and</span> Projects</h2>
                 </div>
                 <br />
                 <a href="#/Projects" className="btn btn-primary">View All</a>
@@ -40,11 +40,11 @@ class Home extends Component {
                 <h1>Hello 👋</h1>
                 <h2> My name is Peyton.</h2>
                 <p>
-                  I am a Developer exploring the world of technology in an attempt to create new, exciting, and impactful systems.  
-                  I started all of this from scratch. Originally I was coding websites in my free time at work because I thought it was fun.
-                  Eventually I started learning different uses of web development. I learned iMacro coding which I integrated with HTML pages 
-                  to nearly entirely automate my current job(at the time). I found that the impact on myself and my work performance was worth it 
-                  to continue the climb of this mountain of education.
+                  I’m a developer passionate about harnessing technology to build innovative, impactful systems. 
+                  What started as a hobby—coding websites during downtime at work—evolved into a pursuit of mastery. 
+                  From automating my job with iMacros and HTML to diving deep into web development, I’ve embraced the challenge of continuous learning to create solutions that make a difference.
+
+
                   {/* <a href="/#/blog">read more</a> */}
                 </p>
               </div>

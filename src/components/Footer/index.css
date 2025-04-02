@@ -1,5 +1,3 @@
-.footer {   
-    position: absolute; 
-    bottom: 0px;
-    left: 0px;
+.footer {
+    bottom: 0px; /* No 'position: absolute' needed if you want it in the flow */
 }
